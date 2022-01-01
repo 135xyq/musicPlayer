@@ -12,7 +12,7 @@
     MusicPlayer.prototype = {
         init() {
             this.getDom(); //获取dom元素
-            this.getData('/mock/data.json'); //获取数据
+            this.getData('musicPlayer/mock/data.json'); //获取数据
         },
         getDom() {
             this.record = document.querySelector('.songImg img');
