@@ -11,6 +11,7 @@
 
     MusicPlayer.prototype = {
         init() {
+            console.log(1)
             this.getDom(); //获取dom元素
             this.getData('/musicPlayer/mock/data.json'); //获取数据
         },
